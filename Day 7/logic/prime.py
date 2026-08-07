@@ -17,5 +17,10 @@ if prime:
 else:
     print(f"{n} is not a Prime Number")
 
+#OUTPUT:
+# Enter A Number: 5
+# 5 is a Prime Number
+# Enter A Number: 6
+# 6 is not a Prime Number
 
 
