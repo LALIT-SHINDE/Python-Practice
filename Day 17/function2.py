@@ -184,7 +184,7 @@ b = 10000
 w = int(input("Enter withdrawal: "))
 tra(b,w)
 
-
+#14
 def register(username, password):
     if len(username) >= 5 and len(password) >= 8:
         return "Registraction successful."
@@ -205,6 +205,7 @@ def search_employee(em, name):
 employees = ["Lalit", "Rahul", "Amit", "Priya", "Ankit"]
 print(search_employee(employees, "Amit"))
 
+#15
 def count_transaction(tr, amount):
     count = 0
     for i in tr:
@@ -215,6 +216,7 @@ def count_transaction(tr, amount):
 transactions = [100, 200, 100, 500, 100, 300, 200]
 print(count_transaction(transactions, 100))
 
+#16
 def max_2nd(sa):
     maxi = sa[0]
     
@@ -234,6 +236,7 @@ def max_2nd(sa):
 salaries = [25000, 45000, 30000, 55000, 40000, 50000]
 print(max_2nd(salaries))
 
+#17
 def calculate_result(m):
     pass_ = 0
     total = 0
