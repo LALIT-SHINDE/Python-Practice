@@ -113,3 +113,82 @@ for i,j in student.items():
     print(f"Minimum marks: {min_marks(marks)}")
     print(f"Result: {result1(marks)}")
     print(f"Gard: {grade(a)}")
+
+#  Output
+# =========== Student Marks Analyzer ===========
+
+# **** Student Name: Amit ****
+
+# ----- Student = subjects : Marks -----
+
+# Math : 92
+# Science : 43
+# Python : 52
+# English : 62
+# History : 82
+
+# ----- Student Record -----
+
+# Total marks: 331
+# Average marks: 66.2
+# Maximum marks: 92
+# Minimum marks: 43
+# Result: Pass
+# Gard: C
+
+# **** Student Name: Priya ****
+
+# ----- Student = subjects : Marks -----
+
+# Math : 32
+# Science : 43
+# Python : 92
+# English : 12
+# History : 72
+
+# ----- Student Record -----
+
+# Total marks: 251
+# Average marks: 50.2
+# Maximum marks: 92
+# Minimum marks: 12
+# Result: Fail
+# Gard: D
+
+# **** Student Name: Deepak ****
+
+# ----- Student = subjects : Marks -----
+
+# Math : 82
+# Science : 73
+# Python : 12
+# English : 92
+# History : 22
+
+# ----- Student Record -----
+
+# Total marks: 281
+# Average marks: 56.2
+# Maximum marks: 92
+# Minimum marks: 12
+# Result: Fail
+# Gard: D
+
+# **** Student Name: Suman ****
+
+# ----- Student = subjects : Marks -----
+
+# Math : 71
+# Science : 17
+# Python : 52
+# English : 62
+# History : 42
+
+# ----- Student Record -----
+
+# Total marks: 244
+# Average marks: 48.8
+# Maximum marks: 71
+# Minimum marks: 17
+# Result: Fail
+# Gard: E
