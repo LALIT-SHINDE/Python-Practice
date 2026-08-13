@@ -155,3 +155,20 @@ nu = 7
 print(is_prime(nu))
 nk = 8
 print(is_prime(nk))
+
+#output
+# [42, 52, 75, 89, 92]
+# Total marks : 350
+# Average : 70.0
+# Result : Pass
+# Grade B
+# [10, 50, 40, 30, 80] : 2nd largest is 50
+# 2 vowles are in Lalit
+# [10, 50, 30, 20, 40, 60, 70]
+# [20, 40, 60]
+# 5
+# True
+# False
+# Yes
+# Yes
+# No
