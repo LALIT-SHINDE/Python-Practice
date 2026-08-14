@@ -33,14 +33,14 @@ for i in range(1,21):
     print(f"{n} * {i} = {n*i}")
 
 
-# while True:
-#     num = input("Enter the Name: ")
+while True:
+    num = input("Enter the Name: ")
 
-#     print(f"Your Name: {num}")
+    print(f"Your Name: {num}")
 
-#     if num == "Skip":
-#         print(f"Quit: {num}")
-#         break
+    if num == "Skip":
+        print(f"Quit: {num}")
+        break
 
 c =0
 while c != 3:
