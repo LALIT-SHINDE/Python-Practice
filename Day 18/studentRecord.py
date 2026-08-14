@@ -1,194 +1,72 @@
-student = {"Amit":{ 
-                "Math" : 92,
-                "Science" : 43,
-                "Python" : 52,
-                "English" : 62,
-                "History" : 82 },
+n = 17
+j = 4
+for i in range(1, n):
+    if i == 11:
+        break
+     
+    print(f"{j} * {i} = {i*n}")
 
-            "Priya":{
-                "Math" : 32,
-                "Science" : 43,
-                "Python" : 92,
-                "English" : 12,
-                "History" : 72
-            },
-
-            "Deepak":{
-                "Math" : 82,
-                "Science" : 73,
-                "Python" : 12,
-                "English" : 92,
-                "History" : 22
-            },
-
-            "Suman":{
-                "Math" : 71,
-                "Science" : 17,
-                "Python" : 52,
-                "English" : 62,
-                "History" : 42
-            }
-        }
+print("End.....")
 
 
+for i in range(0, 12):
+    if i == 0 or i == 11 :
+        continue
 
-def travers(m):
-    print("\n----- Subjects Marks -----")
-    n = ["Math: ", "Science: ","Python: ","English: ", "Histroy: "]
-    for i in range(len(n)):
-        print(f"{n[i]} : {m[i]}")
-    print()
-    print("----- Progress -----")
+    print(i)
+
+for i in range(1, 6):
+    if i == 3:
+        continue
+
+    print(i)
 
 
-def total_marks(m):
-    total = 0
-    for i in m:
-        total += i
-    return total
+for i in range(1,11):
+    if i == 7:
+        break
+    print(i)
 
-def average(m):
-    count = 0
-    for i in m:
-        count += i
-    average = count / len(m)
-    return average
+for i in range(1,21):
+    if i == 3:
+        continue
+    print(f"{n} * {i} = {n*i}")
 
-def max_marks(m):
-    maxi = m[0]
-    for i in m:
-        if maxi < i:
-            maxi = i
 
-    return maxi
+# while True:
+#     num = input("Enter the Name: ")
 
-def min_marks(m):
-    mini = m[0]
-    for i in m:
-        if mini > i:
-            mini = i
+#     print(f"Your Name: {num}")
 
-    return mini
+#     if num == "Skip":
+#         print(f"Quit: {num}")
+#         break
 
-def result1(m):
-    for i in m:
-        if i < 40:
-            return "Fail"
-    return "Pass"
+c =0
+while c != 3:
+    print("--- Menu ---")
+    print("1. say Hello.")
+    print("2. Show Time ")
+    print("3. Exit")
 
-def grade(ave):
-    if ave >= 90 :
-        return "A+"
-    elif ave >= 80:
-        return "A"
-    elif ave >= 70:
-        return "B"
-    elif ave >= 60:
-        return "C"
-    elif ave >= 50:
-        return "D"
-    elif ave >= 40:
-        return "E"
-    else:
-        return "F"
+    c = int(input("Enter choice: "))
+    match c:
+        case 1:
+            print("Hello, Jarvis")
 
-print("\n=========== Student Marks Analyzer ===========")
+        case 2:
+            print("Feature coming soon... ")
+            pass
 
-for i,j in student.items():
-    print(f"\n**** Student Name: {i} ****\n")
+        case 3: 
+            print("Byy....")
+            break
 
-    print("----- Student = subjects : Marks -----\n")
+        case _ :
+            print("Invaild Choice")
+            pass
+      
 
-    for k, l in j.items():
-        print(f"{k} : {l}")
 
-    print("\n----- Student Record -----\n")
-    marks = list(j.values())
 
-    a = average(marks)
-
-    print(f"Total marks: {total_marks(marks)}")
-    print(f"Average marks: {average(marks)}")
-    print(f"Maximum marks: {max_marks(marks)}")
-    print(f"Minimum marks: {min_marks(marks)}")
-    print(f"Result: {result1(marks)}")
-    print(f"Gard: {grade(a)}")
-
-#  Output
-# =========== Student Marks Analyzer ===========
-
-# **** Student Name: Amit ****
-
-# ----- Student = subjects : Marks -----
-
-# Math : 92
-# Science : 43
-# Python : 52
-# English : 62
-# History : 82
-
-# ----- Student Record -----
-
-# Total marks: 331
-# Average marks: 66.2
-# Maximum marks: 92
-# Minimum marks: 43
-# Result: Pass
-# Gard: C
-
-# **** Student Name: Priya ****
-
-# ----- Student = subjects : Marks -----
-
-# Math : 32
-# Science : 43
-# Python : 92
-# English : 12
-# History : 72
-
-# ----- Student Record -----
-
-# Total marks: 251
-# Average marks: 50.2
-# Maximum marks: 92
-# Minimum marks: 12
-# Result: Fail
-# Gard: D
-
-# **** Student Name: Deepak ****
-
-# ----- Student = subjects : Marks -----
-
-# Math : 82
-# Science : 73
-# Python : 12
-# English : 92
-# History : 22
-
-# ----- Student Record -----
-
-# Total marks: 281
-# Average marks: 56.2
-# Maximum marks: 92
-# Minimum marks: 12
-# Result: Fail
-# Gard: D
-
-# **** Student Name: Suman ****
-
-# ----- Student = subjects : Marks -----
-
-# Math : 71
-# Science : 17
-# Python : 52
-# English : 62
-# History : 42
-
-# ----- Student Record -----
-
-# Total marks: 244
-# Average marks: 48.8
-# Maximum marks: 71
-# Minimum marks: 17
-# Result: Fail
-# Gard: E
+    
