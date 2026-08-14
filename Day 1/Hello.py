@@ -6,3 +6,8 @@ print(simple_messages)
 simple_messages = "New Message"
 print(simple_messages)
 
+#output
+# Message
+# Message1
+# New Message
+
