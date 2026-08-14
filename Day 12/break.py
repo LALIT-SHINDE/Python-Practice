@@ -65,8 +65,3 @@ while c != 3:
         case _ :
             print("Invaild Choice")
             pass
-      
-
-
-
-    
