@@ -1,4 +1,3 @@
-
 #1 Second Largest Number
 def Second_Largest(num):
     n = list(num)
