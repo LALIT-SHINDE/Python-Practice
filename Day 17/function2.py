@@ -1,4 +1,3 @@
-
 #1
 def higest_sales(sales):
     maxi = sales[0]
