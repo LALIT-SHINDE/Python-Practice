@@ -23,4 +23,3 @@ for i in range(101):
 print("\n1 to 100 odd numbers:")
 for i in range(1,101,2):
     print(i)
-
