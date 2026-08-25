@@ -1,4 +1,3 @@
-
 #11
 def my_function(name):
     print("Hello,",name)
@@ -90,4 +89,3 @@ def factorial(n):
     print(f"{n}! = {fact}")
 n = int(input("Enter the Number: "))
 factorial(n)
-
