@@ -1,12 +1,3 @@
-
-
-"""num = int(input("Enter any number: ")) 
-fatorial = 1
-for i in range(num ): 
-    fatorial = fatorial * num 
-    num = num - 1 
-    print(fatorial)"""
-
 n = int(input("Enter any number: "))
 f = 1
 
