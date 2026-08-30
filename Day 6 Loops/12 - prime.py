@@ -27,6 +27,7 @@ for i in range(2, n+1):
         if i % j == 0:
             prime = False
             break
+            
     if prime:
         print(i)
         count += 1
