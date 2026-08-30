@@ -13,12 +13,6 @@ print("\n1 to 100 Even numbers: ")
 for i in range(0,101,2):
     print(i)
 
-# or using if statement
-
-for i in range(101):
-    if i % 2 == 0:
-        print(i)
-
 #4
 print("\n1 to 100 odd numbers:")
 for i in range(1,101,2):
