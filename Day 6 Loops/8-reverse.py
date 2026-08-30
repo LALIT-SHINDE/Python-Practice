@@ -1,19 +1,36 @@
-num = int(input("enter any number: "))
-reverse = 0
+#check prime Number
+num = int(input("Enter the number: "))
+if num <= 1:
+    print(f"{num} is not a Prime Number")
 
-while num != 0:
-    la = num % 10
-    reverse = reverse * 10 + la
-    num = num // 10
+else:
+    prime = True 
+    for i in range(2,num):
+        if num % i == 0:
+            prime = False
+            break
 
-print(f"Reverse: {reverse}")
+if prime:
+    print(f"{num} is a Prime number")
+else:
+    print(f"{num} is not a Prime number")
 
-
-num = int(input("enter the number: "))
+#count  and print all the prime number for 1 to n
+n = int(input("Enter the number: "))
 count = 0
 
-while num != 0:
-    num = num // 10
-    count = count + 1
+print(f"Prime numbers 1 to {n}")
+for i in range(2, n+1):
+    prime = True
 
-print("Count: ",count)
+    for j in range(2, i):
+        if i % j == 0:
+            prime = False
+            break
+    if prime:
+        print(i)
+        count += 1
+print(f"{count} numbers of prime number in between {n}")
+
+
+        
