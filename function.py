@@ -56,3 +56,4 @@ def my7(n):
             print("*",end=" ")
         print()
 my7(5)
+
