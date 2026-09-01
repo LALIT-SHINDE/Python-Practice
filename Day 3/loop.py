@@ -1,17 +1,23 @@
-x = [1, 3.5, 43j, "Hi", "fsa"]
-print(x)
+Hi = ["Apple",12,13.7,"jfa",43j]
 
-for i in x:
-    print(i)
+print(f"List: {Hi}")
+print(f"class type: {type(Hi)}")
+print(f"List's Lenght: {len(Hi)}")
 
-for i in range(len(x)):
-    print([i])
+# list constructor
+By = list(("hello", 32, 54.65, 54j))
 
-new = ["apple", "banana", "cherry", "Mango"]
-j = 0
-while j < len(new):
-    print(new[j])
-    j += 1
+print(By)
+print(type(By))
 
-new = ["apple", "banana", "cherry", "Mango"]
-[print(x) for x in new]
+print(By[0:])
+print(By[-1:-5:-1])
+
+#By[1:2] = ["hi","By"]
+print(By)
+
+#By.insert(4,"jk")
+print(By)
+
+
+
