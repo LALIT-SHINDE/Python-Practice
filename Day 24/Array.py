@@ -18,6 +18,8 @@ a = [10,20,30,40,50] # here we have to check time complexity for entrie code
 for i in a:
     print(i) # O(n)
 
+
+
 for j in a:
     print(j) # O(n)
 
