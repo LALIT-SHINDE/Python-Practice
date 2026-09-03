@@ -24,8 +24,3 @@ print(a.strftime('%A'))
 
 
 
-
-
-
-
-
