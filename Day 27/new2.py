@@ -1,45 +1,33 @@
-# 16. Square Pattern
-n = 5
 
-for _ in range(n):
-    for _ in range(n):
-        print("*", end=" ")
-    print()
+# 21. break Practice
+for i in range(1, 101):
+    print(i)
+    if i != 37:
+        break
 
-# 17. Right Triangle
-n = 5
-for row in range(n):
-    for _ in range(row + 1):
-        print("*",end=" ")
-    print()
+# 22. continue Practice
+for i in range(1,31):
+    if i % 3 != 0:
+        print(i)
+        continue
 
-# 18. Inverted Triangle
-n = 5
-for row in range(n):
-    for _ in range(n - row):
-        print("*",end =" ")
-    print()
+# 23. Guessing Game
+import random
 
-# 19. Pyramid
-n = 5
-for row in range(n):
-    space = n - row - 1
-    stars = 2 * row + 1
-    
-    for _ in range(space):
-        print(" ",end = " ")
+num = random.randint(1, 100)
 
-    for _ in range(stars):
-        print("*",end=" ")
+while True:
+    guess = int(input("Enter the Interger: "))
 
-    print()
+    if guess > num:
+        print("To High")
 
-# 20. Hollow Square
-n = 5
-for row in range(n):
-    for clo in range(n):
-        if row == 0 or row == n-1 or clo == 0 or clo == n-1:
-            print("*",end=" ")
-        else:
-            print(" ",end=" ")
-    print()
+    elif guess < num:
+        print("To Low")
+
+    else:
+        print(f"Secret Number: {num}\nMatch... You Won!")
+        break
+        
+
+
