@@ -38,6 +38,3 @@ class student(person1):
 
 s = student("Mike", 43)
 s.printname()
-
-
-
