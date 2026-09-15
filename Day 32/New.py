@@ -8,3 +8,4 @@ class car:
 c1 = car()
 print(c1.add(3,5))
 c1.Multiply(2,4)
+
