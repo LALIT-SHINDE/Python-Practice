@@ -13,4 +13,3 @@ class Student(person):
     def ko(self):
         print(f"{self.name} ({self.age}) {self.course}")
     
-    
