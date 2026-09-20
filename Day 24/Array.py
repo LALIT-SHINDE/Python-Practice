@@ -24,5 +24,3 @@ for j in a:
     print(j) # O(n)
 
 # O(n) + O(n) = O(2n)
-
-
