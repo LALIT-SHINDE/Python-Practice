@@ -1,7 +1,3 @@
-
-# 6 — Find the Missing Number
-
-
 #7. Find duplicate
 arr = [1,1,3,4,0,2]
 new = []
