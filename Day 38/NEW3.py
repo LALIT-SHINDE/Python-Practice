@@ -1,4 +1,3 @@
-
 def anagram(a,b):
     def sort(txt):
         txt = txt.lower()
