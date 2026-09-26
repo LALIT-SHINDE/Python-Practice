@@ -1,4 +1,3 @@
-
 def anagram(a,b):
     def sort(txt):
         txt = txt.lower()
@@ -12,7 +11,7 @@ def anagram(a,b):
                 if mini > i:
                     mini = i
 
-            new += [mini]
+            new += [mini
             t.remove(mini)
 
         txt = "".join(new)
