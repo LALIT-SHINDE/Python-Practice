@@ -176,6 +176,19 @@ for i in string:
 
         print(f"{i}{count}",end="")
         new += i
+        
+# 10. String compression
 
+string = "aaabbcccc"
+new = ""
 
+for i in string:
+    if i not in new:
+        count = 0
 
+        for j in string:
+            if i == j:
+                count += 1
+
+        print(f"{i}{count}",end="")
+        new += i
