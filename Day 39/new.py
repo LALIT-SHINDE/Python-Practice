@@ -19,6 +19,13 @@ if palindrome:
 else:
   print(f"{s} is not a Palindrome")
   
-  
+
+# Sample Output 1:
+# Enter the String: lalit
+# lalit is not a Palindrome
+
+# Sample Output 2:
+# Enter the String: lalilal
+# lalilal is a Palindrome
     
   
