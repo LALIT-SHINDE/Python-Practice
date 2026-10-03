@@ -1,4 +1,3 @@
-
 n = 10
 
 #upper Half
