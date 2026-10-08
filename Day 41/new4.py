@@ -1,4 +1,3 @@
-
 n = int(input("Enter the Number: "))
 fact = 1
 
